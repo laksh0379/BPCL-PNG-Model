@@ -2,3 +2,7 @@ streamlit
 pandas
 plotly
 openpyxl
+scipy
+numpy
+requests
+selenium
