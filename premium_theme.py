@@ -146,10 +146,10 @@ def inject_premium_theme():
     }
     p, li, .stMarkdown p {
         color: var(--text-2) !important;
-        font-size: 0.875rem !important;
+        font-size: 1rem !important;
         line-height: 1.65 !important;
     }
-    label { color: rgba(180,180,220,0.85) !important; font-size: 0.8125rem !important; font-weight: 500 !important; }
+    label { color: rgba(180,180,220,0.85) !important; font-size: 0.9375rem !important; font-weight: 500 !important; }
 
     /* ── Glowing horizontal divider lines ── */
     hr {
@@ -291,6 +291,11 @@ def inject_premium_theme():
     }
 
     /* ── Inputs — Premium Dropdowns ── */
+    [data-testid="stTextInput"] input,
+    [data-testid="stNumberInput"] input,
+    [data-testid="stTextArea"] textarea {
+        font-size: 0.9375rem !important;
+    }
     [data-testid="stSelectbox"] > div > div,
     [data-testid="stMultiSelect"] > div > div {
         background: linear-gradient(135deg, #1a1a35 0%, #1e1e40 100%) !important;
